@@ -61,7 +61,7 @@ public class Main extends Application {
 		
 		TextField pwField = new TextField();
 		pwField.textProperty().addListener((observable, oldValue, newValue) -> {
-			if(newValue.equals("cynthia")){
+			if(newValue.equals("cas")){
 				System.err.println("successfully exited");
 				running = false;
 				System.exit(0);
